@@ -7,7 +7,7 @@
 Two lines to my past self about one specific moment, for make.fun's "Two Lines to Your Past Self" bounty.
 
 > "Call your grandmother back on the Sunday she rang twice.
-> She was gone by Thursday, and that unanswered call is the one you still think about at night."
+> She was gone by Thursday, and ever since you answer every call on the second ring."
 
 ## Run it
 

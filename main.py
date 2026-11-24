@@ -66,22 +66,62 @@ consequence on a single pointed word. The warning stays untouched:
 "Sunday she rang twice" is already the most concrete image in the
 field, and changing it would only blur it.
 
-FINAL ENTRY (150 characters):
+REVISION PASS (fixing the entry's weakest criterion):
+
+Pass 1's own note on D flagged the soft spot: the cause and effect is
+emotional rather than mechanical — line two says the missed call still
+haunts him, but it shows no change the moment caused. Four revisions
+weighed against the brief:
+
+R1 (chosen, 139 chars): line two becomes "She was gone by Thursday,
+and ever since you answer every call on the second ring."
+- For: line two now shows a real, visible change the moment caused —
+a habit, not a feeling — which is exactly what criterion 3 rewards.
+"On the second ring" echoes "rang twice" from line one, closing the
+pair in a tight loop: she rang twice, he now answers on the second
+ring. The loss stays in the first clause, so the emotional punch is
+kept while the consequence becomes something you can see.
+- Against: it trades the haunting last image ("the one you still
+think about at night") for a habit; the new ending is quieter, but
+the brief weighs cause and effect above a pretty last line.
+
+R2 (158 chars): line two becomes "She was gone by Thursday, and that
+call you never returned is the one you still think about at night."
+- For: "the call you never returned" owns the failure more than
+"that unanswered call".
+- Against: a synonym swap only — same structure, same feeling, no new
+consequence; eight characters longer for no new payoff.
+
+R3 (146 chars): line one becomes "Call your grandmother back the
+Sunday she rang twice." (drops "on the").
+- For: four characters tighter.
+- Against: "on the Sunday" is the natural phrasing; the cut saves
+almost nothing and slightly clips the voice, while leaving line two's
+weak cause and effect untouched.
+
+R4 (150 chars): line one becomes "Pick up the phone the Sunday your
+grandmother rang twice."
+- For: "pick up the phone" is immediate and physical.
+- Against: it rewrites the story — the point is a return call never
+made, not a ring never answered; "pick up" blurs whether he was even
+there, and the callback is what line two's regret hangs on.
+
+REVISED FINAL ENTRY (139 characters):
 "Call your grandmother back on the Sunday she rang twice."
-"She was gone by Thursday, and that unanswered call is the one you
-still think about at night."
+"She was gone by Thursday, and ever since you answer every call on
+the second ring."
 
 Hand count, two ways: line 1 = 47 letters + 9 spaces = 56; line 2 =
-76 letters + 17 spaces = 93; total 56 + 1 newline + 93 = 150.
-Cross-check: 123 non-space characters + 26 spaces + 1 newline = 150.
+67 letters + 15 spaces = 82; total 56 + 1 newline + 82 = 139.
+Cross-check: 114 non-space characters + 24 spaces + 1 newline = 139.
 """
 
 import os
 
 ENTRY = (
     "Call your grandmother back on the Sunday she rang twice.\n"
-    "She was gone by Thursday, and that unanswered call is the one "
-    "you still think about at night."
+    "She was gone by Thursday, and ever since you answer every call "
+    "on the second ring."
 )
 
 
